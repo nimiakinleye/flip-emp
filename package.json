@@ -19,6 +19,9 @@
     "vue-qrcode-reader": "^3.0.4",
     "vuelidate": "^0.7.6"
   },
+  "optionalDependencies": {
+  "fsevents": "2.1.2"
+},
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^4.0.1",
     "eslint-config-prettier": "^8.1.0",
