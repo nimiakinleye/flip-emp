@@ -61,6 +61,14 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    maxChunkSize: 1000000
-  }
+    maxChunkSize: 1000000,
+    optimization: {
+      splitChunks: {
+        chunks: 'all',
+        automaticNameDelimiter: '.',
+        name: 'test',
+        maxSize: 500000
+      }
+    }
+  },
 }
